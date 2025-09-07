@@ -27,13 +27,13 @@ let imgWaterDrop;
 
 
 function setup() {
-    imgWashMachine = loadImage("/assets/washing_machine.png");
+    imgWashMachine = loadImage("assets/washing_machine.png");
 
-  imgToilet = loadImage("/assets/toilet.png");
-  imgShower = loadImage("/assets/shower.png");
-  imgTap = loadImage("/assets/tap.png");
-  imgTub = loadImage("/assets/bathtub.png");
-  imgWaterDrop = loadImage("/assets/water-drop.png");
+  imgToilet = loadImage("assets/toilet.png");
+  imgShower = loadImage("assets/shower.png");
+  imgTap = loadImage("assets/tap.png");
+  imgTub = loadImage("assets/bathtub.png");
+  imgWaterDrop = loadImage("assets/water-drop.png");
 
   
   canvas = createCanvas(512, 512);
