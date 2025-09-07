@@ -26,7 +26,10 @@ let imgWaterDrop;
 
 // Load the image.
 function preload() {
-  imgWashMachine = loadImage("/assets/washing_machine.png");
+
+
+function setup() {
+    imgWashMachine = loadImage("/assets/washing_machine.png");
 
   imgToilet = loadImage("/assets/toilet.png");
   imgShower = loadImage("/assets/shower.png");
@@ -34,8 +37,7 @@ function preload() {
   imgTub = loadImage("/assets/bathtub.png");
   imgWaterDrop = loadImage("/assets/water-drop.png");
 }
-
-function setup() {
+  
   canvas = createCanvas(512, 512);
 
   washMachineObject = {
