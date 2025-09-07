@@ -24,8 +24,6 @@ let imgWashMachine;
 
 let imgWaterDrop;
 
-// Load the image.
-function preload() {
 
 
 function setup() {
