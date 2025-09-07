@@ -34,7 +34,7 @@ function setup() {
   imgTap = loadImage("/assets/tap.png");
   imgTub = loadImage("/assets/bathtub.png");
   imgWaterDrop = loadImage("/assets/water-drop.png");
-}
+
   
   canvas = createCanvas(512, 512);
 
