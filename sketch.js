@@ -25,9 +25,13 @@ let imgWashMachine;
 let imgWaterDrop;
 
 
+// Load the image.
+function preload() {
+     imgWashMachine = loadImage("assets/washing_machine.png");
+
+}
 
 function setup() {
-    imgWashMachine = loadImage("assets/washing_machine.png");
 
   imgToilet = loadImage("assets/toilet.png");
   imgShower = loadImage("assets/shower.png");
